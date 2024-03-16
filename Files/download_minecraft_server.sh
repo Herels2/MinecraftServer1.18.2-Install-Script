@@ -11,8 +11,8 @@ printf '=================\n\nPort 25565 is open!\n\n=================\n'
 mkdir minecraftserver
 cd minecraftserver
 printf '=================\n\nDownload Server Files\n\n=================\n'
-wget https://nerocloud.ru/data/eula.txt
+wget https://raw.githubusercontent.com/Herels2/MinecraftServer1.18.2-Install-Script/main/Files/eula.txt
 wget https://api.papermc.io/v2/projects/paper/versions/1.18.2/builds/388/downloads/paper-1.18.2-388.jar
-wget https://nerocloud.ru/data/start.sh
+wget https://raw.githubusercontent.com/Herels2/MinecraftServer1.18.2-Install-Script/main/Files/start.sh
 printf '=================\n\nServer Files Downloaded, start server\n\n=================\n'
 sh start.sh
