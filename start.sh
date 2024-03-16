@@ -1,0 +1,1 @@
+java -Xmx4000M -Xms2048M -jar paper-1.18.2-388.jar
