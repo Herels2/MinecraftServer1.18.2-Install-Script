@@ -1,0 +1,1 @@
+# MinecraftServer1.18.2-Install-Script
